@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="fundo2"></div>
+<body background="../static/Imagens_site/fundo2.png">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='../static/css/contato.css')}}">
+    <br>
+    <h3>Entre em contato</h3>
+    <br>
+
+    <p>Lorem ipsum dolor sit amet, maecenas lacinia ut massa eget. Nullam dictum orci sed malesuada</p>
+    <hr>
+    <br>
+    <form>
+        <label for="inputemail">Seu e-mail:</label>
+        <input type="text" id="inputemail">
+        <br>
+        
+        <label for="inputAssunto">Assunto:</label>
+        <input type="text" id="inputAssunto">
+        <br>
+
+        <label for="textareaDescrição">Descrição:</label>
+        <textarea name="textareaDescrição" id="textareaDescrição" cols="1" rows="2"></textarea>
+        <BUTTon>Enviar</BUTTon>
+    </form>
+</div>
+
+{% endblock %}

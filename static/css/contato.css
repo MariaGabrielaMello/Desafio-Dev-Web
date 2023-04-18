@@ -1,0 +1,17 @@
+form{
+    width: 35%;
+    padding: 0 10%;
+    box-shadow: top;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 3px;   
+}
+
+p{
+    box-shadow: 0 0px;
+    width: fit-content;
+    align-content: center;
+
+}
